@@ -1,0 +1,49 @@
+cat /var/log/hash | grep 56243562 
+
+ragaie.mahmoud1 | $6$yutP3finrikrsdO1$C1bFom6Wzl4gtrJKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302856
+ragaie.mahmoud2 | $6$yutP3finrikrsdO1$C1bFomfgrAhNH2JKYW9GOUMDgfdhAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302857
+ragaie.mahmoud3 | $6$yutP3finrikrsdO1$C1bFom6Wzl4INAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302858
+ragaie.mahmoud4 | $6$yutP3finrikrsdO1$C1bFofgergAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302856
+ragaie.mahmoud5 | $6$yutP3finrikrsdO1$C1bFom6Wzl4INAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302855
+ragaie.mahmoud6 | $6$yutP3finrikrsdO1$C1bFom6Wzl4INAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302850
+ragaie.mahmoud7 | re$yutP3finrikrsdO1$C1bfhfdgfgNAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 05/07/24 | 14:20:43 | 302854
+Abdelrahman.ataa | re$yutP3finrikrsdO1$C1bfhfdgfgNAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 | mahmoud.elsadany@etisalatdata.net | 10.175.14.112 | 010/07/24 | 14:20:43 | 333333
+
+
+
+input= 302854
+do serach in file_hash to get all data 
+username=ragaie.mahmoud6
+date=05/07/24
+hash=re$yutP3finrikrsdO1$C1bfhfdgfgNAhNH2JKYW9GOUMD0ywNHDJAwqrGS1SYbzHuvZbT.wktagzhYmnxUOrX1ilzv3.4SzIYiZk681 
+
+
+/etc/tac_plus/tac_plus.conf      
+/etc/tac_plus/tac_plus-ASR-Read.conf   
+/etc/tac_plus/tac_plus-ASR.conf   
+/etc/tac_plus/tac_plus-core.conf   
+/etc/tac_plus/tac_plus-DC.conf   
+/etc/tac_plus/tac_plus-BRAS.conf   
+/etc/tac_plus/tac_plus-Access-SWs.conf   
+/etc/tac_plus/tac_plus-Wifi.conf   
+
+
+ 
+user = ragaie.mahmoud {
+  name = "Ragaie Aly"
+  member = support
+  login = des $6$x3Hzsm28ZUHUEOuN$cPVvUCMIRNqW8yUlAt7tXxMs4.ncqjD5TZOnKvE04Fl6afH7tXcq9p0vtoh4uZD9aKbohwQewV9WbH2T.sSW9.
+  expires = "may 7 2024"
+}  
+user = talat.test {
+  name = "Ragaie Aly"
+  member = support
+  login = des $6$x3Hzsm28ZUHUEOuN$cPVvUCMIRNqW8yUlAt7tXxMs4.ncqjD5TZOnKvE04Fl6afH7tXcq9p0vtoh4uZD9aKbohwQewV9WbH2T.sSW9.
+  expires = "may 7 2024"
+}  
+user = ahmed.mahmoud3 {
+  name = "Ragaie Aly"
+  member = support
+  login = des $6$x3Hzsm28ZUHUEOuN$cPVvUCMIRNqW8yUlAt7tXxMs4.ncqjD5TZOnKvE04Fl6afH7tXcq9p0vtoh4uZD9aKbohwQewV9WbH2T.sSW9.
+  expires = "may 7 2024"
+}  
